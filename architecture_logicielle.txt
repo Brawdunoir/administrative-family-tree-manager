@@ -1,0 +1,18 @@
+Noms : Alexandre Rivière & Yann Lacroix
+Groupe : H
+Numéro : 407
+
+Architecture logicielle:
+
+Modules :
+- Registre
+- Arbre_Binaire
+- Arbre_Genealogique
+
+
+Arbre_Genealogique utilise les modules suivants :
+- Registre
+- Arbre_Binaire
+
+Le programme principal utilise :
+- Arbre_Genealogique

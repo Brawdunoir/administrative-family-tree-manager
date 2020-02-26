@@ -1,0 +1,58 @@
+Noms : Alexandre Rivière, Yann Lacroix
+Année : 1SN
+Groupe : H
+
+
+R0: Réaliser un programme qui permet à un utilisateur de manipuler un arbre généalogique.
+
+	R1: 
+	Initialiser l'arbre.
+	
+	Répéter
+
+		Effectuer des opérations sur l'arbre.
+
+		Demander à l'utilisateurs si il veut continuer à manipuler l'arbre.
+
+	Jusqu'à Continuer = False	
+	Fin Répéter
+
+	Détruire l'arbre.
+
+
+
+R2 "Effectuer des opérations sur l'arbre." : 
+
+	Demander à l'utilisateur si il veut modifier l'arbre (=> Continuer_Mod : Boolean).
+		Tant que Continuer_Mod
+			Demander à l'utilisateur ce qu'il veut Modifier/Ajouter/Supprimer dans l'arbre.
+			Modifier l'arbre.
+		Fin Tant que
+
+	Demander à  l'utilisateur si il veut afficher des informations concernant l'arbre (=> Continuer_Aff : Boolean)
+		Tant que Continuer_Aff
+			Proposer à l'utilisateur toutes les opérations Afficher/Obtenir/Identifier/Vérifier.
+			Afficher ce que l'utilisateur a demandé.
+		Fin Tant que
+
+
+
+
+
+R3 : "Demander à l'utilisateur ce qu'il veut Modifier/Ajouter/Supprimer dans l'arbre."
+    Afficher("Entrer 1 pour modifier un individu dans l'arbre.").
+	Afficher("Entrer 2 pour supprimer un individu et ses ancêtres de l'arbre.").
+    Afficher("Entrer 3 pour ajouter un individu dans l'arbre.").
+	Afficher("Entrer 0 pour arrêter de modifier l'arbre.").
+    
+
+R3: "Proposer à l'utilisateur toutes les opérations Afficher/Obtenir/Identifier/Vérifier."
+    Afficher("Entrer 1 pour afficher l'arbre à partir d'un noeud").
+	Afficher("Entrer 2 pour obtenir l'ensemble des ancêtres d'un individu donné").
+	...
+	Afficher("Entrer 8 pour vérifier si deux individus n et m ont un ou plusieurs ancêtres homonymes").
+	Afficher("Entrer 0 pour arrêter d'afficher des informations sur l'arbre").
+					
+
+
+			
