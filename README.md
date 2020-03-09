@@ -26,11 +26,11 @@ Manage a very simple family tree in console from an administrative point of view
 3. Birth date.
 4. Gender.  
 
-Each indivual have a unique identifier.
+Each indivual has a unique identifier.
 
 ## Language
 
-This project has been writen in Ada.
+This project has been written in Ada.
 
 ## Architecture
 
